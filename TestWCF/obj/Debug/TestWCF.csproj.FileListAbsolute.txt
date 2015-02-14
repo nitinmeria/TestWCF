@@ -1,0 +1,6 @@
+G:\Geecon .NET Projects\TestWCF\TestWCF\bin\Debug\TestWCF.exe.config
+G:\Geecon .NET Projects\TestWCF\TestWCF\bin\Debug\TestWCF.exe
+G:\Geecon .NET Projects\TestWCF\TestWCF\bin\Debug\TestWCF.pdb
+G:\Geecon .NET Projects\TestWCF\TestWCF\obj\Debug\TestWCF.csprojResolveAssemblyReference.cache
+G:\Geecon .NET Projects\TestWCF\TestWCF\obj\Debug\TestWCF.exe
+G:\Geecon .NET Projects\TestWCF\TestWCF\obj\Debug\TestWCF.pdb

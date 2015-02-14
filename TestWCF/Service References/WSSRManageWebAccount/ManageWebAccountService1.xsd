@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.compassionuk.org/ManageWebAccount" elementFormDefault="qualified" targetNamespace="http://services.compassionuk.org/ManageWebAccount" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="UpdateAddress">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="address" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RequestStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="status" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SupporterProfileDetailsObject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="supporterid" type="xs:int" />
+        <xs:element minOccurs="0" name="titleid" type="xs:int" />
+        <xs:element minOccurs="0" name="firstname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="lastname" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="altemail1" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="altemail2" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="homephone" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="mobilephone" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="officephone" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SupporterProfileDetailsResponseObject">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="OperationResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
